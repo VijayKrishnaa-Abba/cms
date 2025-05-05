@@ -39,6 +39,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <Providers>
           <Navbar />
+          <h1 className="apple">Eat a Apple</h1>          
           <OfflineNotification />
           {children}
           <Toaster richColors />
